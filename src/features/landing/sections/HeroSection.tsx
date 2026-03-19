@@ -1,6 +1,6 @@
 type Props = {};
 
-const HeroSection = (props: Props) => {
+const HeroSection = (_props: Props) => {
   return (
     <>
       <section className="hero__section bg-neutral-1000">

@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 type Props = {};
 
-const Header = (props: Props) => {
+const Header = (_props: Props) => {
   return (
     <>
       <section className="header__section bg-neutral-1000">

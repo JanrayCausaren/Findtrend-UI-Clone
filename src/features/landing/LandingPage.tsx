@@ -3,7 +3,7 @@ import HeroSection from './sections/HeroSection'
 
 type Props = {}
 
-const LandingPage = (props: Props) => {
+const LandingPage = (_props: Props) => {
   return (
    <>
       <Header></Header>
