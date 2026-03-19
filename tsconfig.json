@@ -4,5 +4,15 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
+  ], 
+  "compilerOptions": {
+    
+    "paths": {
+      "@features/*": ["./src/features/*"],
+      "@components/*": ["./src/core/components/*"],
+      "@utils/*": ["./src/core/utils/*"],
+      "@core/*": ["./src/core/*"], 
+       "@src/*": ["./src/*"]
+    }
+  }
 }

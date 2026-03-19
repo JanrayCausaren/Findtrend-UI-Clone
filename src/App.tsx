@@ -1,15 +1,12 @@
-
-import HeroSection from '@features/landing/HeroSection'
-import './App.css'
+import "./App.css";
+import LandingPage from "@features/landing/LandingPage";
 
 function App() {
-  
-
   return (
     <>
-     <HeroSection></HeroSection>
+      <LandingPage></LandingPage>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

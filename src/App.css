@@ -32,9 +32,34 @@
 }
 
 @layer base {
+  a{
+    @apply text-white
+  }
+
+  a:hover{
+    @apply hover:text-neutral-600
+  }
+
+  body{
+    @apply font-body 
+  }
+
+
+  h1, h2,h3, h4,h5, h6{
+    @apply text-white
+  }
+
+  p{
+    @apply text-neutral-500
+  }
+
+  
 }
 
 @layer components {
+  .brand_container{
+    @apply max-w-328 mx-auto px-4
+  }
 }
 
 @layer utilities {
