@@ -1,3 +1,4 @@
+import Bg2Section from './sections/Bg2Section'
 import Header from './sections/Header'
 import HeroSection from './sections/HeroSection'
 
@@ -8,6 +9,7 @@ const LandingPage = (_props: Props) => {
    <>
       <Header></Header>
       <HeroSection></HeroSection>
+      <Bg2Section></Bg2Section>
     </>
   )
 }

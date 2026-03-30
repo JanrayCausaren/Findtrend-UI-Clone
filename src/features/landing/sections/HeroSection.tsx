@@ -3,7 +3,7 @@ type Props = {};
 const HeroSection = (_props: Props) => {
   return (
     <>
-      <section className="hero__section bg-neutral-1000">
+      <section className="hero__section bg-neutral-1000 h-screen">
         <div className="brand_container mx-auto pt-25">
           <div className="text-center">
             <div className="wrapper">
@@ -18,7 +18,7 @@ const HeroSection = (_props: Props) => {
                     website into one place.
                   </p>
                 </div>
-                <button className="px-8 py-4 rounded-full bg-primary text-neutral-1000 font-bold">Get Started</button>
+                <button className="px-8 py-4 rounded-full bg-primary text-neutral-1000 font-bold">Get Started 🔥</button>
               </div>
             </div>
           </div>
