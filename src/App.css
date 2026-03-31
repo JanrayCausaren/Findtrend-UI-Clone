@@ -10,6 +10,7 @@
   --color-brand-primary-strong: #8cc83a;
 
   --color-brand-neutral-0: #ffffff;
+  --color-brand-neutral-10: #fafafa;
   --color-brand-neutral-1000: #000000;
 
   /* NEUTRAL SCALE (RAW) */
@@ -63,6 +64,11 @@
   .brand_container{
     @apply max-w-328 mx-auto px-4
   }
+
+  .brand_container_1160{
+    @apply max-w-290 mx-auto
+  }
+
 }
 
 @layer utilities {

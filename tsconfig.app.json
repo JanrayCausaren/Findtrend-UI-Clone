@@ -29,6 +29,7 @@
       "@components/*": ["./src/core/components/*"],
       "@utils/*": ["./src/core/utils/*"],
       "@core/*": ["./src/core/*"],
+      "@assets/*": ["./src/assets/*"],
       "@src/*": ["./src/*"]
     }
   },
